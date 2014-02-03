@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <!--
 
-    This file is part of Everit OpenSource Main.
+    This file is part of Everit - OpenSource Main.
 
-    Everit OpenSource Main is free software: you can redistribute it and/or modify
+    Everit - OpenSource Main is free software: you can redistribute it and/or modify
     it under the terms of the GNU Lesser General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
 
-    Everit OpenSource Main is distributed in the hope that it will be useful,
+    Everit - OpenSource Main is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU Lesser General Public License for more details.
 
     You should have received a copy of the GNU Lesser General Public License
-    along with Everit OpenSource Main.  If not, see <http://www.gnu.org/licenses/>.
+    along with Everit - OpenSource Main.  If not, see <http://www.gnu.org/licenses/>.
 
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -33,7 +33,7 @@
 
   <packaging>pom</packaging>
 
-  <name>Everit OpenSource Main</name>
+  <name>Everit - OpenSource Main</name>
   <description>Main (configuration) project for maven based Everit solutions</description>
 
   <inceptionYear>2011</inceptionYear>
@@ -72,7 +72,7 @@
         <artifactId>license-maven-plugin</artifactId>
         <version>2.5</version>
         <configuration>
-          <aggregate>true</aggregate>
+          <aggregate>false</aggregate>
           <header>/com/mycila/maven/plugin/license/templates/LGPL-3.txt</header>
           <excludes>
             <exclude>LICENSE</exclude>
