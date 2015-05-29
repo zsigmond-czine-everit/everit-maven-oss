@@ -24,16 +24,16 @@
   <parent>
     <groupId>org.everit.config</groupId>
     <artifactId>org.everit.config.main</artifactId>
-    <version>7.0.8</version>
+    <version>8.0.0</version>
   </parent>
 
   <artifactId>org.everit.config.oss</artifactId>
-  <version>6.0.8</version>
+  <version>7.0.0</version>
 
   <packaging>pom</packaging>
 
   <name>Everit - OpenSource Main</name>
-  <description>Main (configuration) project for maven based Everit solutions</description>
+  <description>Main (configuration) project for maven based Everit OpenSource solutions</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
