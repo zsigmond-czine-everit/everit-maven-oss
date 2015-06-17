@@ -28,7 +28,7 @@
   </parent>
 
   <artifactId>org.everit.config.oss</artifactId>
-  <version>7.0.0</version>
+  <version>7.0.1</version>
 
   <packaging>pom</packaging>
 
@@ -75,6 +75,7 @@
           <header>com/mycila/maven/plugin/license/templates/APACHE-2.txt</header>
           <excludes>
             <exclude>LICENSE</exclude>
+            <exclude>**/.pmdruleset.xml</exclude>
           </excludes>
           <skipExistingHeaders>true</skipExistingHeaders>
           <properties>
