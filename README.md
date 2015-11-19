@@ -1,5 +1,4 @@
 everit-maven-oss
 ================
 
-Documentation: http://wwww.everit.org/everit-maven-oss
-
+Documentation: http://www.everit.org/everit-maven-oss
